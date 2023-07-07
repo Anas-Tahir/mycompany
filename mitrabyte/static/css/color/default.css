@@ -1,0 +1,48 @@
+::selection {
+  background-color:#3d0463;
+  color: #fff;
+}
+::-moz-selection {
+  background-color:#5032d8;
+  color: #fff;
+}
+
+a:hover {
+  color:#860445;
+}
+
+a,
+.theme-color,
+.mm-column li.mm-header > a,
+.mm-column li:not(.mm-header) a:hover,
+.btn-t-white:hover,
+.btn-white {
+  color:#72149e;
+}
+
+
+.theme-before:before,
+.theme-after:after,
+.btn-theme,
+.btn-white:hover,
+.theme-hover:hover,
+.owl-nav > div,
+.theme-bg {
+ 
+  
+ background-image: linear-gradient(to right,#8b3dff, #00c4cc  );
+}
+.btn-theme:hover{
+  background-image: linear-gradient(to right, #9c4bdf,  #690d85);
+}
+
+.price-table-01.active,
+.border-color {
+  border-color: #e605b5 !important;
+} 
+
+.theme-color-g {
+  background: linear-gradient(to right, #9405e6, #e605a3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
